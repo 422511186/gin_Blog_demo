@@ -1,6 +1,6 @@
 package util
 
-import "github.com/EDDYCJY/gin_Blog_demo/pkg/setting"
+import "github.com/422511186/gin_Blog_demo/pkg/setting"
 
 // Setup Initialize the util
 func Setup() {

@@ -5,10 +5,10 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/app"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/e"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/logging"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/upload"
+	"github.com/422511186/gin_Blog_demo/pkg/app"
+	"github.com/422511186/gin_Blog_demo/pkg/e"
+	"github.com/422511186/gin_Blog_demo/pkg/logging"
+	"github.com/422511186/gin_Blog_demo/pkg/upload"
 )
 
 func UploadImage(c *gin.Context) {

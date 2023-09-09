@@ -2,7 +2,7 @@ package logging
 
 import (
 	"fmt"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/file"
+	"github.com/422511186/gin_Blog_demo/pkg/file"
 	"log"
 	"os"
 	"path/filepath"

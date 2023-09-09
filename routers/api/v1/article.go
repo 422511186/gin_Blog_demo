@@ -8,13 +8,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/app"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/e"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/qrcode"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/setting"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/util"
-	"github.com/EDDYCJY/gin_Blog_demo/service/article_service"
-	"github.com/EDDYCJY/gin_Blog_demo/service/tag_service"
+	"github.com/422511186/gin_Blog_demo/pkg/app"
+	"github.com/422511186/gin_Blog_demo/pkg/e"
+	"github.com/422511186/gin_Blog_demo/pkg/qrcode"
+	"github.com/422511186/gin_Blog_demo/pkg/setting"
+	"github.com/422511186/gin_Blog_demo/pkg/util"
+	"github.com/422511186/gin_Blog_demo/service/article_service"
+	"github.com/422511186/gin_Blog_demo/service/tag_service"
 )
 
 func GetArticle(c *gin.Context) {
@@ -245,7 +245,7 @@ func DeleteArticle(c *gin.Context) {
 }
 
 const (
-	QRCODE_URL = "https://github.com/EDDYCJY/blog#gin%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95"
+	QRCODE_URL = "https://github.com/422511186/blog#gin%E7%B3%BB%E5%88%97%E7%9B%AE%E5%BD%95"
 )
 
 func GenerateArticlePoster(c *gin.Context) {

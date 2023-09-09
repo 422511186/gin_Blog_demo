@@ -8,10 +8,10 @@ import (
 	"path"
 	"strings"
 
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/file"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/logging"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/setting"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/util"
+	"github.com/422511186/gin_Blog_demo/pkg/file"
+	"github.com/422511186/gin_Blog_demo/pkg/logging"
+	"github.com/422511186/gin_Blog_demo/pkg/setting"
+	"github.com/422511186/gin_Blog_demo/pkg/util"
 )
 
 // GetImageFullUrl get the full access path

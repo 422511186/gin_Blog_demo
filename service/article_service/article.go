@@ -3,10 +3,10 @@ package article_service
 import (
 	"encoding/json"
 
-	"github.com/EDDYCJY/gin_Blog_demo/models"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/gredis"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/logging"
-	"github.com/EDDYCJY/gin_Blog_demo/service/cache_service"
+	"github.com/422511186/gin_Blog_demo/models"
+	"github.com/422511186/gin_Blog_demo/pkg/gredis"
+	"github.com/422511186/gin_Blog_demo/pkg/logging"
+	"github.com/422511186/gin_Blog_demo/service/cache_service"
 )
 
 type Article struct {

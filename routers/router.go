@@ -6,15 +6,15 @@ import (
 
 	"github.com/gin-gonic/gin"
 
-	_ "github.com/EDDYCJY/gin_Blog_demo/docs"
+	_ "github.com/422511186/gin_Blog_demo/docs"
 	"github.com/swaggo/gin-swagger"
 
-	"github.com/EDDYCJY/gin_Blog_demo/middleware/jwt"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/export"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/qrcode"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/upload"
-	"github.com/EDDYCJY/gin_Blog_demo/routers/api"
-	"github.com/EDDYCJY/gin_Blog_demo/routers/api/v1"
+	"github.com/422511186/gin_Blog_demo/middleware/jwt"
+	"github.com/422511186/gin_Blog_demo/pkg/export"
+	"github.com/422511186/gin_Blog_demo/pkg/qrcode"
+	"github.com/422511186/gin_Blog_demo/pkg/upload"
+	"github.com/422511186/gin_Blog_demo/routers/api"
+	"github.com/422511186/gin_Blog_demo/routers/api/v1"
 )
 
 func InitRouter() *gin.Engine {

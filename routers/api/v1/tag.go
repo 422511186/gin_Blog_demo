@@ -7,13 +7,13 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/unknwon/com"
 
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/app"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/e"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/export"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/logging"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/setting"
-	"github.com/EDDYCJY/gin_Blog_demo/pkg/util"
-	"github.com/EDDYCJY/gin_Blog_demo/service/tag_service"
+	"github.com/422511186/gin_Blog_demo/pkg/app"
+	"github.com/422511186/gin_Blog_demo/pkg/e"
+	"github.com/422511186/gin_Blog_demo/pkg/export"
+	"github.com/422511186/gin_Blog_demo/pkg/logging"
+	"github.com/422511186/gin_Blog_demo/pkg/setting"
+	"github.com/422511186/gin_Blog_demo/pkg/util"
+	"github.com/422511186/gin_Blog_demo/service/tag_service"
 )
 
 func GetTags(c *gin.Context) {
